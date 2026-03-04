@@ -114,12 +114,12 @@ violence-detection/
 ## 🔍 How It Works
 
 ### 1. Detection Phase (Every N frames)
-- YOLO detects people and violent actions
+- YOLO detects suspicious areas
 - Returns bounding boxes with confidence scores
 - Extracts 512-dimensional feature vectors
 
 ### 2. Tracking Phase (Between detections)
-- MOSSE tracker updates box positions frame-to-frame
+- Tracker(MOSSE) updates box positions frame-to-frame
 - Confidence scores decay if tracker fails
 - Boxes with low confidence are removed
 
@@ -139,7 +139,7 @@ violence-detection/
 ### YOLO26 (violence_yolo.onnx)
 - **Input**: 320×320 RGB images (normalized 0-1)
 - **Output**: 
-  - Detections: (5, 6) - up to 5 objects with [x1, y1, x2, y2, conf, class]
+  - Detections: (5, 6) - up to 5 boxes with [x1, y1, x2, y2, conf, class]
   - Features: (512,) - feature vector for temporal analysis
 - **Inference Time**: ~50-100ms (CPU)
 
@@ -216,7 +216,7 @@ pip install --upgrade onnxruntime
 
 Models trained on custom dataset derived from **RWF2000** (Real World Fighting Dataset):
 - Contains real-world violence/non-violence scenarios
-- Custom labeling and train/test split
+- Custom labeling
 - 0.75 mAP on detection task
 - 82.63% accuracy on violence classification
 

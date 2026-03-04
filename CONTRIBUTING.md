@@ -20,7 +20,7 @@ Got an idea? Open an issue describing:
 ### Setup
 
 1. Fork and clone the repo
-2. Install deps: `pip install ultralytics`. Yet that's all
+2. Install deps: `pip install ultralytics, onnxruntime, cv2, numpy'
 3. Create a branch: `git checkout -b my-changes`
 
 ### Making Changes

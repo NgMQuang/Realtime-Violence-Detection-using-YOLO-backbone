@@ -21,6 +21,19 @@ Real-time violence detection using multi-object tracking and temporal classifica
 | Dataset Source | RWF2000 |
 | Input Resolution | 320×320 |
 
+**Validation Results**:
+
+|Accuracy | 0.8263|
+|---------|-------|
+|Precision| 0.8182|
+|Recall   | 0.8424|
+|F1 Score | 0.8301|
+
+
+|Class     |Images|  Instances | Box(P    -      R    -  mAP50  -    mAP50-95)|
+|----------|------|------------|----------------------------------------------|
+|all       |3000  |    2865    |  0.712   -   0.704   -  0.754  -       0.425 |
+
 ## 🏗️ Architecture
 
 ```

@@ -1,0 +1,3 @@
+onnxruntime
+cv2
+numpy

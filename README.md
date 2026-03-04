@@ -97,6 +97,7 @@ TRACKER_FAILURE_DECAY = 0.5      # Confidence decay on failure
 
 ```
 violence-detection/
+├── demovid                     # Videos for demo (removed on github)
 ├── run.py                      # Main inference script
 ├── utilities.py                # Helper functions (tracking, box operations)
 ├── pipeline_analyzer.py        # Model analysis/debugging
@@ -107,6 +108,7 @@ violence-detection/
 ├── violence_yolo.onnx      # YOLO26 detection model
 ├── gapconv1d.onnx          # Temporal classification model
 └── gapconv1d.onnx.data     # Model weights (LFS tracked)
+
 ```
 
 ## 🔍 How It Works

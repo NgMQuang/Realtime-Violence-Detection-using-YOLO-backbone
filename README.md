@@ -16,7 +16,7 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 | Metric | Value |
 |--------|-------|
-| mAP (Custom Dataset) | **0.75** |
+| mAP0.5 (Custom Dataset) | **0.75** |
 | Accuracy (Custom Dataset) | **82.63%** |
 | Dataset Source | RWF2000 |
 | Input Resolution | 320×320 |

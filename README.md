@@ -104,10 +104,9 @@ violence-detection/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 ├── LICENSE                     # License
-└── models/
-    ├── violence_yolo.onnx      # YOLO26 detection model
-    ├── gapconv1d.onnx          # Temporal classification model
-    └── gapconv1d.onnx.data     # Model weights (LFS tracked)
+├── violence_yolo.onnx      # YOLO26 detection model
+├── gapconv1d.onnx          # Temporal classification model
+└── gapconv1d.onnx.data     # Model weights (LFS tracked)
 ```
 
 ## 🔍 How It Works

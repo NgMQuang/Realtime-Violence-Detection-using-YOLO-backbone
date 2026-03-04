@@ -223,15 +223,11 @@ Models trained on custom dataset derived from **RWF2000** (Real World Fighting D
 
 - YOLO26: https://github.com/ultralytics/ultralytics
 - ONNX Runtime: https://onnxruntime.ai/
-- RWF2000 Dataset: https://github.com/aiwenForGitHub/RWF2000-Database
+- RWF2000 Dataset: https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection
 
 ## 📄 License
 
-[Your License Here - e.g., MIT, Apache 2.0]
-
-## 👤 Author
-
-**QuangNgM**
+MIT
 
 ## 🙏 Acknowledgments
 
@@ -250,11 +246,3 @@ Models trained on custom dataset derived from **RWF2000** (Real World Fighting D
 - [ ] Edit video path in `run.py`
 - [ ] Run: `python run.py`
 - [ ] Press Q to quit
-
-## Next Steps
-
-- [ ] Test on Raspberry Pi (with model quantization)
-- [ ] Add REST API for deployment
-- [ ] Integrate with security systems
-- [ ] Optimize for edge devices
-- [ ] Fine-tune on domain-specific data

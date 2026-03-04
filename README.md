@@ -5,7 +5,7 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ## 🎯 Features
 
-- **Spatial Detection**: YOLOv8 for real-time object detection and localization
+- **Spatial Detection**: YOLO26 for real-time object detection and localization
 - **Multi-Object Tracking**: MOSSE tracker with confidence-based hysteresis
 - **Temporal Classification**: GAPConv1D classifier on 8-frame feature sequences
 - **Robust Tracking**: Automatic tracker failure recovery and confidence decay
@@ -105,7 +105,7 @@ violence-detection/
 ├── README.md                   # This file
 ├── LICENSE                     # License
 └── models/
-    ├── violence_yolo.onnx      # YOLOv8 detection model
+    ├── violence_yolo.onnx      # YOLO26 detection model
     ├── gapconv1d.onnx          # Temporal classification model
     └── gapconv1d.onnx.data     # Model weights (LFS tracked)
 ```
@@ -135,7 +135,7 @@ violence-detection/
 
 ## 📊 Model Details
 
-### YOLOv8 (violence_yolo.onnx)
+### YOLO26 (violence_yolo.onnx)
 - **Input**: 320×320 RGB images (normalized 0-1)
 - **Output**: 
   - Detections: (5, 6) - up to 5 objects with [x1, y1, x2, y2, conf, class]
@@ -221,7 +221,7 @@ Models trained on custom dataset derived from **RWF2000** (Real World Fighting D
 
 ## 📚 References
 
-- YOLOv8: https://github.com/ultralytics/ultralytics
+- YOLO26: https://github.com/ultralytics/ultralytics
 - ONNX Runtime: https://onnxruntime.ai/
 - RWF2000 Dataset: https://github.com/aiwenForGitHub/RWF2000-Database
 

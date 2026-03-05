@@ -176,19 +176,6 @@ The script displays:
 
 ## ⚙️ Advanced Usage
 
-### Use Custom Video Input
-
-```python
-# Webcam
-cap = cv2.VideoCapture(0)
-
-# IP camera
-cap = cv2.VideoCapture("rtsp://your-camera-ip/stream")
-
-# Video file
-cap = cv2.VideoCapture("path/to/video.mp4")
-```
-
 ### Adjust Violence Threshold
 
 ```python
@@ -201,29 +188,6 @@ if violence_prob > 0.8:  # Change threshold here
 ```bash
 python run_with_analysis.py
 ```
-
-## 🐛 Troubleshooting
-
-### Models not found
-```bash
-git lfs pull
-# or manually download from releases
-```
-
-### Slow performance
-- Increase `DETECT_INTERVAL` (skip more frames between detections)
-- Reduce input resolution (change 320 to 240 in code)
-- Disable tracker for CPU-only systems
-
-### ONNX Runtime errors
-```bash
-pip install --upgrade onnxruntime
-```
-
-### No detections appearing
-- Check video file is readable: `ffprobe video.avi`
-- Verify model files exist: `ls -la models/`
-- Run with `run_with_analysis.py` for debugging
 
 ## 🔬 Dataset
 

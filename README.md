@@ -44,7 +44,7 @@ Real-time violence detection using multi-object tracking and temporal classifica
 **Testing**
 
 To evaluate generalization ability, the model was tested on
-other datasets without any training on these datasets.
+other datasets **without any training** on these datasets.
 
 **HockeyFight**
 

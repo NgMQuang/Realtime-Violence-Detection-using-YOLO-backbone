@@ -41,6 +41,22 @@ Real-time violence detection using multi-object tracking and temporal classifica
 |----------|------|------------|----------------------------------------------|
 |all       |3000  |    2865    |  0.712   -   0.704   -  0.754  -       0.425 |
 
+**Testing**
+
+To evaluate generalization ability, the model was tested on the
+Hockey Fight dataset without any training on this dataset.
+
+![ROC](assets/roc_curve.png)
+![Threshold](assets/threshold_analysis.png)
+
+Despite the domain shift, the model achieved:
+
+- Accuracy ≈ 0.78
+- ROC-AUC ≈ 0.85
+
+This indicates the model captures generic motion patterns
+associated with violent behavior.
+
 ## 🏗️ Architecture
 
 ```

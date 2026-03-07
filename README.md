@@ -14,11 +14,11 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ## 📊 Performance
 
-## RWF2000
+* RWF2000
 
 ![Model Results](assets/confusion_analysis.png)
 
-
+* Training metrics
 | Metric | Value |
 |--------|-------|
 | mAP0.5| **0.75** |

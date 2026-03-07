@@ -18,7 +18,7 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ![Model Results](assets/confusion_analysis.png)
 
-** Training metrics **
+**Training metrics**
 
 * Classifier
 

@@ -56,6 +56,11 @@ other datasets without any training on these datasets.
 ![ROC_movie](assets/Peliculas_roc_curve.png)
 ![Threshold_movie](assets/Peliculas_threshold_analysis.png)
 
+**Real life violence Situation**
+
+![ROC_RLVS](assets/RLVS_roc_curve.png)
+![Threshold_RLVS](assets/RLVS_threshold_analysis.png)
+
 
 ## 🏗️ Architecture
 

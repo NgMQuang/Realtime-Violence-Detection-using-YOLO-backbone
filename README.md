@@ -20,14 +20,14 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 **Training metrics**
 
-* Classifier
-
 | Metric | Value |
 |--------|-------|
 | mAP0.5| **0.75** |
 | Accuracy| **82.63%** |
 | Dataset Source | RWF2000 |
 | Input Resolution | 320×320 |
+
+* Classifier
 
 |Accuracy | 0.8263|
 |---------|-------|

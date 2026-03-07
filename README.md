@@ -14,13 +14,13 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ## 📊 Performance
 
-** RWF2000 **
+**RWF2000**
 
 ![Model Results](assets/confusion_analysis.png)
 
 ** Training metrics **
 
-*Classifier
+* Classifier
 
 | Metric | Value |
 |--------|-------|
@@ -35,7 +35,7 @@ Real-time violence detection using multi-object tracking and temporal classifica
 |Recall   | 0.8424|
 |F1 Score | 0.8301|
 
-*Suspicious area localization
+* Suspicious area localization
 
 |Class     |Images|  Instances | Box(P    -      R    -  mAP50  -    mAP50-95)|
 |----------|------|------------|----------------------------------------------|

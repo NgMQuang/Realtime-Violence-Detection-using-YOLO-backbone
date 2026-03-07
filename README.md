@@ -61,6 +61,9 @@ other datasets without any training on these datasets.
 ![ROC_RLVS](assets/RLVS_roc_curve.png)
 ![Threshold_RLVS](assets/RLVS_threshold_analysis.png)
 
+The model shows a strong capacity for detecting violent events, as reflected by consistently high recall across the evaluated datasets. This suggests that the system is capable of identifying most violent occurrences, supporting its potential applicability in real-world scenarios while maintaining an effective representation of violent activity patterns.
+
+
 
 ## 🏗️ Architecture
 

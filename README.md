@@ -18,7 +18,8 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ![Model Results](assets/confusion_analysis.png)
 
-* Training metrics
+* Training metrics*
+
 | Metric | Value |
 |--------|-------|
 | mAP0.5| **0.75** |

@@ -1,4 +1,5 @@
-Note: Claude write the template, I'm updating
+Note: AI-assisted coding tools were used for minor implementation support
+
 # Violence Detection System with YOLO26 + Temporal Classifier
 
 Real-time violence detection using multi-object tracking and temporal classification. Detects and localizes violent behavior in video with bounding boxes and per-frame violence probability scores.

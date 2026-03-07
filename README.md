@@ -63,7 +63,15 @@ other datasets **without any training** on these datasets.
 
 The model shows a strong capacity for detecting violent events, as reflected by consistently high recall across the evaluated datasets. This suggests that the system is capable of identifying most violent occurrences, supporting its potential applicability in real-world scenarios while maintaining an effective representation of violent activity patterns.
 
+| Dataset     | ROC AUC |
+| ----------- | ------- |
+| MovieFight  | 0.71    |
+| HockeyFight | 0.86    |
+| RLVS        | 0.78    |
 
+## 🎞 Demo
+
+pass
 
 ## 🏗️ Architecture
 
@@ -123,13 +131,13 @@ cap = cv2.VideoCapture("path/to/your/video.avi")
 Edit parameters in `run.py`:
 
 ```python
-FPS_VIDEO = 30                    # Video frame rate
-TOTAL_TIME_DETECT = 2.5          # Detection window (seconds)
-FRAME_PER_DETECT = 8             # Frames per classifier input
-DETECT_INTERVAL = 10             # Frames between detections
+FPS_VIDEO = 30                   # Video frame rate, auto read when assign video path
+TOTAL_TIME_DETECT = 2.5          # Detection window (seconds), DO NOT CHANGE
+FRAME_PER_DETECT = 8             # Frames per classifier input, DO NOT CHANGE
+DETECT_INTERVAL = 10             # The code implementation already compute it automatedly
 
-TRACKER = "MOSSE"                # Tracker type
-MAX_TRACKS = 5                   # Max simultaneous tracks
+TRACKER = "MOSSE"                # Tracker type, we found that MEDIANFLOW perform the most stability, but using MOSSE for fast demo
+MAX_TRACKS = 5                   # Max simultaneous tracks, DO NOT CHANGE
 CONF_ON = 0.25                   # Show track threshold
 CONF_OFF = 0.1                   # Hide track threshold
 STICK_WEIGHT = 0.7               # Stickiness in scoring
@@ -228,6 +236,11 @@ Models trained on custom dataset derived from **RWF2000** (Real World Fighting D
 - 0.75 mAP on detection task
 - 82.63% accuracy on violence classification
 
+Dataset used for testing:
+- Hockey Fight
+- Movie Fight
+- RLVS
+
 ## 📚 References
 
 - YOLO26: https://github.com/ultralytics/ultralytics
@@ -243,6 +256,9 @@ MIT
 - YOLO26 by Ultralytics
 - RWF2000 dataset creators
 - ONNX Runtime community
+- Hockey Fight
+- Movie Fight
+- RLVS
 
 ---
 

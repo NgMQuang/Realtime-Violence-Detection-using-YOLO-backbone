@@ -14,7 +14,9 @@ Real-time violence detection using multi-object tracking and temporal classifica
 
 ## 📊 Performance
 
-#RWF2000
+## RWF2000
+
+![Model Results](assets/confusion_analysis.png)
 
 
 | Metric | Value |
